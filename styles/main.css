@@ -4,5 +4,85 @@ html,body {
 }
 
 body {
-    padding: 0 4% 4% 4%;
+    padding: 0 2% 2% 2%;
+    font-family: 'Myriad Pro';
+    /* overflow: hidden; */
 }
+
+:root {
+    --main-padding: 30px;
+}
+
+.top-text {
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: var(--main-padding);
+    background-color: #042F5F;
+    border: 4px solid #070068;
+    visibility: hidden;
+}
+
+.main-box-first-item {
+    height: 100%;
+    width: 100%;
+    background-color: #FCFCFC;
+    border: 4px solid #0071BC;
+    padding: var(--main-padding);
+}
+
+.box-for-fluid {
+    width: 100%;
+    height: 100%;
+    max-height: 55%;
+    /* margin: 2% 0 0 0; */
+    background-color: #304A67;
+    border: 4px solid #2267B5;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.main-for-small-boxes {
+    width: 100%;
+    height: 50%;
+    max-height: 200px;
+    background-color: #304A67;
+    border: 4px solid #2267B5;
+    padding: var(--main-padding);
+    margin: 0 0 1.8% 0;
+}
+
+.small-box {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #93278F;
+    margin: 0 0 0 6%;
+    padding: 20px;
+}
+
+.small-box:first-child {
+    margin: 0;
+}
+
+.extra-small-box {
+    max-width: 265px;
+    width: 100%;
+    height: 100%;
+    background-color: #75B3F9;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
