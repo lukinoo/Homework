@@ -26,7 +26,6 @@ body {
     padding: var(--main-padding);
     background-color: #042F5F;
     border: 4px solid #070068;
-    visibility: hidden;
 }
 
 .main-box-first-item {
